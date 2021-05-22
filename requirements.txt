@@ -3,7 +3,6 @@ tabulate
 inputimeout
 svglib==1.0.1
 reportlab
-pyinstaller
 pysimplegui
 fake_useragent
-anticaptchaofficial
+beautifulsoup4
