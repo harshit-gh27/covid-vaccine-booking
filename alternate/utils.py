@@ -214,9 +214,9 @@ def collect_user_details(request_header):
 
     # Get refresh frequency
     refresh_freq = input(
-        "How often do you want to refresh the calendar (in seconds)? Default 15. Minimum 1. : "
+        "How often do you want to refresh the calendar (in seconds)? Default 10. Minimum 5. (You might be blocked if the value is too low, in that case please try after a while with a lower frequency) : "
     )
-    refresh_freq = int(refresh_freq) if refresh_freq and int(refresh_freq) >= 1 else 15
+    refresh_freq = int(refresh_freq) if refresh_freq and int(refresh_freq) >= 1 else 10
 
     # Get search start date
     start_date = input(
@@ -660,7 +660,7 @@ def check_and_book(
                             "slot": selected_slot,
                         }
                         print(f"Booking with info: {new_req}")
-                        booking_status = book_appointment(request_header, new_req, mobile, captcha_automation, captcha_automation_api_key, captcha_api_choice)
+                        booking_status = book_appointment(request_header, new_req, mobile, captcha_automation)
                         # is token error ? If yes then break the loop by returning immediately
                         if booking_status == 0:
                             return False
