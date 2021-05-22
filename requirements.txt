@@ -6,3 +6,4 @@ reportlab
 pysimplegui
 fake_useragent
 beautifulsoup4
+pyjwt
