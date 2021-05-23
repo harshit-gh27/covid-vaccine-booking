@@ -15,8 +15,11 @@ For the anyone not familiar with Python and using Windows, using the ```native.b
 Or if You are coming from https://github.com/bombardier-gif/covid-vaccine-booking then run ```advanced.bat``` to run his version of the code. Full Documentation for this is available @ https://github.com/bombardier-gif/covid-vaccine-booking#readme
 
 ### Usage (Developer Mode):
-
-Use **Python 3.8** and install all the dependencies with:
+If you'are on MacOS install libtiff libjpeg webp little-cms2 before running the `pip install`. To install, run:
+```
+brew install libtiff libjpeg webp little-cms2
+```
+Use **Python 3.9** and install all the dependencies with:
 ```
 pip install -r requirements.txt
 ```
@@ -32,7 +35,6 @@ If you already have a bearer token, you can also use:
 ```
 python src\covid-vaccine-slot-booking.py --token=YOUR-TOKEN-HERE
 ```
-
 
 ### Steps:
 1. Run script:
