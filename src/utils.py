@@ -34,7 +34,11 @@ except ImportError:
 
 else:
     def beep(freq, duration):
-        winsound.Beep(freq, duration)
+        try:
+            winsound.Beep(freq, duration)
+        except:
+            print("Beep not supported")
+
 
 
 def viable_options(resp, minimum_slots, min_age_booking, fee_type, dose):
