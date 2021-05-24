@@ -442,7 +442,7 @@ def check_and_book(request_header, beneficiary_dtls, location_dtls, search_optio
         else:
             try:
                 for i in range(refresh_freq, 0, -1):
-                    msg = f"No viable options. Next update in {i} seconds.."
+                    msg = f"No viable options. Next auto refresh in {i} seconds.. or press any button to refresh instantly.."
                     print(msg, end="\r", flush=True)
                     sys.stdout.flush()
                     time.sleep(1)
