@@ -12,7 +12,7 @@ If you wish to create your own Buymeacoffee page then please follow [this link](
 
 For the anyone not familiar with Python and using Windows, using the ```native.bat``` would be the easiest way.
 
-Or if you are looking for complete automation with captcha & OTP and coming from https://github.com/bombardier-gif/covid-vaccine-booking then run ```advanced.bat``` to run his version of the code. Full Documentation for this is available @ https://github.com/bombardier-gif/covid-vaccine-booking#readme
+Or if you are looking for complete automation with captcha & OTP or coming from https://github.com/bombardier-gif/covid-vaccine-booking then run ```advanced.bat``` to run his version of the code. Full Documentation for this is available @ https://github.com/bombardier-gif/covid-vaccine-booking#readme
 
 ### Usage (Developer Mode):
 If you'are on MacOS install libtiff libjpeg webp little-cms2 before running the `pip install`. To install, run:
