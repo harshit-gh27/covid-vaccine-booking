@@ -23,6 +23,8 @@ def main():
     try:
         base_request_header = {
             'User-Agent': UserAgent().random,
+            'origin': 'https://selfregistration.cowin.gov.in/',
+            'referer': 'https://selfregistration.cowin.gov.in/'
         }
 
         if args.token:
