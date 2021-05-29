@@ -17,6 +17,7 @@ jobs:
         curl -X GET https://raw.githubusercontent.com/bombardier-gif/covid-vaccine-booking/main/src/utils.py --output utils.py
         curl -X GET https://raw.githubusercontent.com/bombardier-gif/covid-vaccine-booking/main/src/model.txt --output model.txt
         curl -X GET https://raw.githubusercontent.com/bombardier-gif/covid-vaccine-booking/main/README.md --output README.md
+        curl -X GET https://raw.githubusercontent.com/bombardier-gif/covid-vaccine-booking/main/src/ratelimit.py --output ratelimit.py
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
         git add .
