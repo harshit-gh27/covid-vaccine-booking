@@ -17,8 +17,13 @@ Or if you are looking for complete automation with captcha & OTP or coming from 
 ### Usage (Developer Mode):
 If you'are on MacOS install libtiff libjpeg webp little-cms2 before running the `pip install`. To install, run:
 ```
-brew install libtiff libjpeg webp little-cms2
+brew install libtiff libjpeg webp little-cms2 sox
 ```
+If you are on MacOS and you installed Python 3.9 via HomeBrew, make sure you install tkinter dependency:
+---
+brew install python-tk@3.9
+---
+
 Use **Python 3.9** and install all the dependencies with:
 ```
 pip install -r requirements.txt
